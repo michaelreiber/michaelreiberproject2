@@ -1,0 +1,125 @@
+$color1: rgb(210, 210, 210);
+
+h1{
+    color: $color1;
+    text-align: center;
+    font-size: 65px;
+}
+
+.expander{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+img{
+    display: none;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+body{
+    background-image: url(Media2/detroitbackgroudimage.jpg);
+}
+
+p{
+    color: $color1;
+    font-size: 16px;
+}
+
+
+/*#bg{
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+*/
+.eminem{
+    h3{
+        text-align: center;
+    }
+    margin: auto;
+    padding: 5px;
+    background-color: rgba(200, 200, 200, .0);
+    height: 280px;
+    width: 500px;
+    color: $color1;
+    text-align: justify;
+    transition:  1s all;
+}
+
+.eminem:hover{
+    background-color: ___;
+    transition: 1s all;
+}
+
+.bigsean{
+    h3{
+        text-align: center;
+    }
+    margin: auto;
+    padding: 5px;
+    background-color: rgba(200, 200, 200, .0);
+    height: 205px;
+    width: 500px;
+    color: $color1;
+    text-align: justify;
+    transition:  1s all;
+}
+
+.bigsean:hover{
+    background-color: ___;
+    transition: 1s all;
+}
+
+.royce{
+    h3{
+        text-align: center;
+    }
+    margin: auto;
+    padding: 5px;
+    background-color: rgba(200, 200, 200, .0);
+    height: 275px;
+    width: 500px;
+    color: $color1;
+    text-align: justify;
+    transition:  1s all;
+}
+
+.royce:hover{
+    background-color: ___;
+    transition: 1s all;
+}
+
+#selectfav{
+    align-content: center;
+    text-align: center;
+    color: $color1;
+}
+
+button{
+    align-content: center;
+    text-align: center;
+    color: black;
+}
+
+#home{
+    text-align: center;
+    color: $color1;
+}
